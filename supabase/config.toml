@@ -1,0 +1,12 @@
+# Optional Supabase CLI local configuration. Dashboard setup in README is sufficient.
+project_id = "helpticket"
+
+[auth]
+enable_signup = false
+site_url = "http://localhost:5173"
+additional_redirect_urls = ["http://localhost:5173", "https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO/"]
+
+[auth.email]
+enable_signup = false
+double_confirm_changes = true
+enable_confirmations = true
